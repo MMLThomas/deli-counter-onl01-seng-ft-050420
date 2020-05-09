@@ -11,7 +11,8 @@ def line(katz_deli)
   end
 end
 
-#def take_a_number(katz_deli, name)
-  #puts "#{katz_deli.index(name)+1}. #{name} "
-#end
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  puts "#{name} #{katz_deli.index(name) + 1}
+end
   
