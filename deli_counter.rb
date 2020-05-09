@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |name|
-      puts "Primary Color #{katz_deli.index(name)} is #{name} letters long."
+      puts " #{katz_deli.index(name)}. #{name}"
     end
   end
 end
